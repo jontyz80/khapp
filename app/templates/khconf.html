@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Hi !</h1>
+<br>
+  Link running: {{ link }}
+<br>
+  Number listening:  {{ count }}
+<br>
+  AJAX play: <div><span id="phoneCount"></span></div> <a href="javascript:getPhoneCount();">Get Count</a>
+{% endblock %}
